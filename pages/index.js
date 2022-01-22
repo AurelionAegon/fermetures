@@ -15,6 +15,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <div className='text-center text-red-500 text-4xl'>
+tailwind worked         </div>
 
         <p className={styles.description}>
           Get started by editing{' '}
