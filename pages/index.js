@@ -28,7 +28,7 @@ export default function Home() {
 			</Head>
 
 			<div className='relative'>
-				<Header className='absolute top-0 left-0 right-0 z-40' />
+				<Header className='absolute top-0 left-0 right-0 z-40 ' />
 				<div className='absolute top-0 left-0 right-0 -z-50'>
 					<Swiper
 						modules={[Pagination, EffectFade]}

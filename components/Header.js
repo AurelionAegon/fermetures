@@ -10,7 +10,7 @@ export default function Header() {
 	};
 
 	return (
-		<div className='px-10 py-6 bg-white/40'>
+		<div className='px-10 py-6 bg-white/40 mx-4 rounded-2xl '>
 			<div className='flex justify-between items-center'>
 				{/* logo bgin*/}
 				<a href='#' className='flex items-center'>
