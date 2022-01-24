@@ -8,6 +8,9 @@ module.exports = {
 		fontFamily: {
 			sans: ['Mulish', 'sans-serif'],
 		},
+		backgroundImage: {
+			'hero-pattern': "url('/assets/patterns/texture.svg')",
+		},
 	},
 	plugins: [],
 };

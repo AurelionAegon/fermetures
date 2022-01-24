@@ -3,8 +3,9 @@ import React from 'react';
 
 const Slide = ({ image }) => {
 	return (
-		<div>
+		<div className='relative'>
 			<img src={`/assets/images/${image}.jpg`} alt='ee' />
+			<div className='w-full h-screen bg-hero-pattern absolute top-0' />
 		</div>
 	);
 };
