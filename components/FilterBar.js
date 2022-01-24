@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class FilterBar extends Component {
   render() {
     return (
-      <div className='w-2/5 grid place-items-center'>
+      <div className='w-2/5 '>
         <div className='text-center'>
         AFFINER MA RECHERCHE
         </div>
