@@ -125,7 +125,7 @@ export default function Header() {
 					isOpen ? 'flex' : 'hidden'
 				}`}
 			>
-				<div className='mt-10  shadow py-20 rounded-md w-96 px-20 '>
+				<div className='mt-10 bg-white shadow py-20 rounded-md w-96 px-20 '>
 					<ul className='font-semibold text-slate-800 text-xl space-y-4 '>
 						<li className='hover:text-blue-600'>
 							<a href='#'>Nos produit</a>

@@ -27,7 +27,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='relative'>
+			<div className='relative pt-6'>
 				<Header className='absolute top-0 left-0 right-0 z-40 ' />
 				<div className='absolute top-0 left-0 right-0 -z-50'>
 					<Swiper
