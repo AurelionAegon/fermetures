@@ -53,6 +53,7 @@ export default function Home() {
 								image='slideA'
 								text='Fermetures, designer de solutions de fermetures personnalisées'
 								dark={false}
+								link='#'
 							/>
 						</SwiperSlide>
 						<SwiperSlide>
@@ -60,6 +61,7 @@ export default function Home() {
 								image='slideB'
 								text='Trouvez un professionnel pres de ches vous'
 								dark={false}
+								link='#'
 							/>
 						</SwiperSlide>
 						<SwiperSlide>
@@ -67,6 +69,7 @@ export default function Home() {
 								image='slideC'
 								text='lorem ipsum dollar imppe '
 								dark={false}
+								link='#'
 							/>
 						</SwiperSlide>
 						<SwiperSlide>
@@ -74,6 +77,7 @@ export default function Home() {
 								image='slideD'
 								text='the greate gastaby by aurelions usl'
 								dark={true}
+								link='#'
 							/>
 						</SwiperSlide>
 					</Swiper>

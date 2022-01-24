@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
-const Slide = ({ image, text, dark }) => {
+const Slide = ({ image, text, dark, link }) => {
 	return (
 		<div className='relative'>
 			<img
@@ -17,9 +17,19 @@ const Slide = ({ image, text, dark }) => {
 							: 'text-slate-200'
 					} font-bold`}
 				>
-					<h1 className='text-center text-5xl tracking-wide leading-snug max-w-xl'>
-						{text}
-					</h1>
+					<div>
+						<h1 className='text-center text-5xl tracking-wide leading-snug max-w-xl'>
+							{text}
+						</h1>
+						<div className='flex justify-center'>
+							<a
+								href={link}
+								className='mt-10 bg-blue-600 w-auto text-white font-semibold  px-4 py-2 rounded-md hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-200'
+							>
+								En savoir plus
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
