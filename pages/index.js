@@ -49,16 +49,32 @@ export default function Home() {
 						pagination={{ clickable: true }}
 					>
 						<SwiperSlide>
-							<Slide image='slideA' />
+							<Slide
+								image='slideA'
+								text='Fermetures, designer de solutions de fermetures personnalisées'
+								dark={false}
+							/>
 						</SwiperSlide>
 						<SwiperSlide>
-							<Slide image='slideB' />
+							<Slide
+								image='slideB'
+								text='Trouvez un professionnel pres de ches vous'
+								dark={false}
+							/>
 						</SwiperSlide>
 						<SwiperSlide>
-							<Slide image='slideC' />
+							<Slide
+								image='slideC'
+								text='lorem ipsum dollar imppe '
+								dark={false}
+							/>
 						</SwiperSlide>
 						<SwiperSlide>
-							<Slide image='slideD' />
+							<Slide
+								image='slideD'
+								text='the greate gastaby by aurelions usl'
+								dark={true}
+							/>
 						</SwiperSlide>
 					</Swiper>
 				</div>
