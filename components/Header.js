@@ -10,7 +10,7 @@ export default function Header() {
 	};
 
 	return (
-		<div className='mx-10 my-6 '>
+		<div className='px-10 py-6 bg-white/40 mx-4 rounded-2xl '>
 			<div className='flex justify-between items-center'>
 				{/* logo bgin*/}
 				<a href='#' className='flex items-center'>
@@ -53,7 +53,7 @@ export default function Header() {
 					</li>
 					<li className='group'>
 						<a href='#'>Votre projet</a>
-						<div className='h-0.5 bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
+						<div className='h-0.5  bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
 					</li>
 					<li className='group'>
 						<a href='#'>Qui sommes-nous ?</a>
@@ -63,10 +63,10 @@ export default function Header() {
 				{/* navigation end */}
 
 				{/* call action buttons */}
-				<div className='md:flex items-center space-x-5 font-semibold text-slate-600 hidden'>
+				<div className='md:flex items-center space-x-5 font-semibold text-slate-800 hidden'>
 					<a
 						href='#'
-						className='flex items-center space-x-2 border border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800'
+						className='flex items-center space-x-2 border-2 border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800'
 					>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -83,7 +83,7 @@ export default function Header() {
 
 					<a
 						href='#'
-						className='flex items-center space-x-2 border border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800'
+						className='flex items-center space-x-2 border-2 border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800'
 					>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -102,7 +102,7 @@ export default function Header() {
 
 					<a
 						href='#'
-						className='flex items-center space-x-2 border border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800'
+						className='flex items-center space-x-2 border-2 border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800'
 					>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -125,7 +125,7 @@ export default function Header() {
 					isOpen ? 'flex' : 'hidden'
 				}`}
 			>
-				<div className='mt-10  shadow py-20 rounded-md w-96 px-20 '>
+				<div className='mt-10 bg-white shadow py-20 rounded-md w-96 px-20 '>
 					<ul className='font-semibold text-slate-800 text-xl space-y-4 '>
 						<li className='hover:text-blue-600'>
 							<a href='#'>Nos produit</a>
