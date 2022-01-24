@@ -2,3 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.test{
+    transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);
+}
