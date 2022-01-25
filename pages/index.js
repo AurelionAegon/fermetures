@@ -6,16 +6,22 @@ import Hero from '../components/Hero';
 
 export default function Home() {
 	return (
-		<div className='font-sans'>
+		<div className='font-sans '>
 			<Head>
 				<title>fermetures</title>
 				<meta name='description' content='fermetures' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='relative pt-6'>
-				<Header className='absolute top-0 left-0 right-0 z-40 ' />
+			{/* hero section begin */}
+			<div className='relative'>
 				<Hero />
+				<Header />
+			</div>
+			{/* hero section end */}
+
+			<div className='my-10 text-4xl text-pink-600 bg-green-400'>
+				Aurelion sul
 			</div>
 		</div>
 	);
