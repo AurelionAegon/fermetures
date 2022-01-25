@@ -11,7 +11,7 @@ import 'swiper/css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
-import Slide from '../components/Slide';
+import Slide from './Slide';
 
 export default class Hero extends Component {
 	constructor() {
