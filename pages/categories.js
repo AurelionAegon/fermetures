@@ -3,6 +3,7 @@ import Banner from '../components/Banner';
 import Header from '../components/Header';
 import Section from '../components/Section';
 import ProductList from '../components/ProductList';
+import BottomBanner from '../components/BottomBanner';
 export default class categories extends Component {
     render() {
         return (
@@ -11,7 +12,7 @@ export default class categories extends Component {
                 <Banner />
                 <Section />
                 <ProductList />
-                
+                <BottomBanner />
             </div>
         )
     }

@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 export default class Card extends Component {
   render() {
     return (
-      <div className="wrapper w-1/5 antialiased text-gray-900 ">
+      <div className="wrapper  antialiased text-gray-900 ">
         <div>
 
-          <img src="https://www.france-fermetures.fr/image/300x200/i/FF-ff/public/catalogue/portes_garage/MiamiByme/MiamiByMe.jpg" alt=" random imgee" className="w-full object-cover object-center rounded-lg shadow-md hover:rotate-6 h-64" />
+          <img src={this.props.src} alt=" random imgee" className="w-full object-cover object-center rounded-lg shadow-md hover:rotate-6 h-64" />
 
             <div className="relative px-4 -mt-16  ">
-              <div className="text-blue-600 p-6 rounded-lg shadow-lg bg-gray-100">
+              <div className="text-blue-600 p-6 rounded-lg shadow-lg bg-gray-100 hover:cursor-pointer hover:bg-white">
                 <div className="flex items-baseline">
                   <span className="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
                     New

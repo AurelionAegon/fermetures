@@ -13,7 +13,7 @@ export default function Header() {
 		<div className='px-10 py-6 bg-white/40 mx-4 rounded-2xl '>
 			<div className='flex justify-between items-center'>
 				{/* logo bgin*/}
-				<a href='#' className='flex items-center'>
+				<a href='/' className='flex items-center'>
 					<img
 						src='/logo.png'
 						className='w-20  object-contain'
@@ -48,7 +48,7 @@ export default function Header() {
 				{/* navigation begin */}
 				<ul className='md:flex items-center space-x-5 font-semibold text-slate-800 hidden'>
 					<li className='group'>
-						<a href='#'>Nos produit</a>
+						<a href='/categories'>Nos produit</a>
 						<div className='h-0.5 bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
 					</li>
 					<li className='group'>
