@@ -22,9 +22,9 @@ export default function Home() {
 			</div>
 			{/* hero section end */}
 
-			<div className='mt-10 flex justify-center  '>
-				<div>
-					<h3 className='text-4xl text-slate-800 font-bold underline-offset-2 underline decoration-wavy decoration-2 decoration-red-600'>
+			<div className='mt-10 flex justify-center px-6'>
+				<div className='max-w-7xl w-full'>
+					<h3 className='text-4xl text-center text-slate-800 font-bold underline-offset-2 underline decoration-wavy decoration-2 decoration-red-600'>
 						Nos produits
 					</h3>
 					<ProductList />
