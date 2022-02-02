@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import { useState } from 'react';
-
+import Link from 'next/link';
 export default function Header() {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -48,11 +48,11 @@ export default function Header() {
 				{/* navigation begin */}
 				<ul className='md:flex items-center space-x-5 font-semibold text-slate-800 hidden'>
 					<li className='group'>
-						<a href='/categories'>Nos produit</a>
+						<Link href='/categories'>Nos produit</Link>
 						<div className='h-0.5 bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
 					</li>
 					<li className='group'>
-						<a href='/conseils'>Votre projet</a>
+						<Link href='/conseils'>Votre projet</Link>
 						<div className='h-0.5  bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
 					</li>
 					<li className='group'>
