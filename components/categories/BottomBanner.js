@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LeftCard from './LeftCard';
 import RightCard from './RightCard';
+import MiniCard from './MiniCard';
 export default class BottomBanner extends Component {
     render() {
         return (
@@ -10,7 +11,10 @@ export default class BottomBanner extends Component {
                 </div>
                 <div className='w-1/2 space-y-4'>
                     <RightCard />
-                    <RightCard />
+                    <div className='flex flex-row space-x-4'>
+                        <MiniCard />
+                        <MiniCard />
+                    </div>
                 </div>
             </div>
         )

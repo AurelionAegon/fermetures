@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Card from './Card';
-import FilterBar from './FilterBar';
+import Card from '../categories/Card';
+import FilterBar from '../categories/FilterBar';
 export default class ProductList extends Component {
   render() {
     return (

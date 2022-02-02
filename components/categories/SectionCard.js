@@ -16,7 +16,7 @@ export default class SectionCard extends Component {
             />
           </div>
           <div>
-            grid place-items-center<div className=' text-center'>
+            <div className=' text-center'>
               Découvrir nos portes de garage
             </div>
             <div className='text-center'>

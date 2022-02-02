@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Details from './Details';
-import Example from './Example';
 export default class FilterBar extends Component {
   render() {
     return (

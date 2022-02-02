@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Banner extends Component {
     render() {
         return (
-            <div className='flex felx-row  px-14 py-6 space-x-10 bg-blue-50'>
+            <div className='flex felx-row  px-14 py-6 space-x-10 bg-blue-50 pt-32'>
                 <div className='flex w-1/2'>
                     <a href='#' className='flex items-center'>
                         <img

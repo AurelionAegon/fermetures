@@ -5,6 +5,16 @@ module.exports = {
 	],
 	theme: {
 		extend: {},
+		keyframes: {
+			wiggle: {
+			  '0%, 100%': { transform: 'rotate(-5deg)' },
+			  '50%': { transform: 'rotate(5deg)' },
+			},
+		 },
+		  animation:{
+		  'spin': 'spin 3s linear infinite',
+		  'wiggle': 'wiggle 2s linear infinite'
+		},
 		fontFamily: {
 			sans: ['Mulish', 'sans-serif'],
 		},
@@ -12,5 +22,5 @@ module.exports = {
 			'hero-pattern': "url('/assets/patterns/texture.svg')",
 		},
 	},
-	plugins: [],
+	plugins: []
 };

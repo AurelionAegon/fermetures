@@ -52,7 +52,7 @@ export default function Header() {
 						<div className='h-0.5 bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
 					</li>
 					<li className='group'>
-						<a href='#'>Votre projet</a>
+						<a href='/conseils'>Votre projet</a>
 						<div className='h-0.5  bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
 					</li>
 					<li className='group'>
