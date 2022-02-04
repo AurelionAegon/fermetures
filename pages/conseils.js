@@ -14,8 +14,8 @@ export default class Conseils extends Component {
           <Alert />
           <NosProduits />
         </div>
-         <div className='h-screen flex-wrap  space-x-5 px-10 py-6  mx-4'>
-           some content
+         <div className='h-screen flex-wrap  space-x-5 px-10 py-6  mx-4 text-red-700 text-center'>
+           KALSDKLKASDLLASMKAASDK KSDMKMASDKMASD KMDSKLAMD
         </div> 
 
         <UpFooter />
