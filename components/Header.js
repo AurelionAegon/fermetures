@@ -72,9 +72,7 @@ export default function Header() {
             <span className="hidden lg:block">Devis</span>
           </a>
 
-          <div
-            className="flex items-center space-x-2 border-2 border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800"
-          >
+          <div className="flex items-center space-x-2 border-2 border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -141,9 +139,7 @@ export default function Header() {
               </a>
             </li>
             <li className="text-base">
-              <div
-                className="flex items-center space-x-2 justify-center border border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800"
-              >
+              <div className="flex items-center space-x-2 justify-center border border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -160,10 +156,7 @@ export default function Header() {
               </div>
             </li>
             <li className="text-base">
-              <div
-                href="#"
-                className="flex items-center space-x-2 justify-center border border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800"
-              >
+              <div className="flex items-center space-x-2 justify-center border border-blue-600 px-3 py-1.5 rounded hover:shadow-blue-400/50 hover:shadow-lg ease-in-out duration-200 hover:text-slate-800">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -171,7 +164,9 @@ export default function Header() {
                 >
                   <path d="M18 22H6C4.89543 22 4 21.1046 4 20V4C4 2.89543 4.89543 2 6 2H13C13.0109 2.00047 13.0217 2.00249 13.032 2.006C13.0418 2.00902 13.0518 2.01103 13.062 2.012C13.1502 2.01765 13.2373 2.0348 13.321 2.063L13.349 2.072C13.3717 2.07968 13.3937 2.08904 13.415 2.1C13.5239 2.14842 13.6232 2.21618 13.708 2.3L19.708 8.3C19.7918 8.38479 19.8596 8.48406 19.908 8.593C19.918 8.615 19.925 8.638 19.933 8.661L19.942 8.687C19.9699 8.77039 19.9864 8.85718 19.991 8.945C19.9926 8.95418 19.9949 8.96322 19.998 8.972C19.9998 8.98122 20.0004 8.99062 20.0001 9V20C20.0001 21.1046 19.1046 22 18 22ZM6 4V20H18V10H13C12.4477 10 12 9.55228 12 9V4H6ZM14 5.414V8H16.586L14 5.414Z" />
                 </svg>
-                <span className="">Brochures</span>
+                <span className="">
+                  <Link href="/brochures">Brochures</Link>
+                </span>
               </div>
             </li>
           </ul>

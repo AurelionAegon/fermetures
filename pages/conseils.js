@@ -17,7 +17,6 @@ export default class Conseils extends Component {
           />
           {/* <NosProduits /> */}
           <div className="h-screen">
-            <SimpleMap />
           </div>
          
         </div>
