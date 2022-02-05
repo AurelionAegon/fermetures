@@ -4,7 +4,7 @@ export default class Alert extends Component {
     render() {
         return (
             <div>
-                <div className="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
+                <div className="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-5 shadow-md " role="alert">
                     <div className="flex">
                         <div className="py-1">
                             <svg className="fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -12,9 +12,9 @@ export default class Alert extends Component {
                             </svg>
                         </div>
                         <div>
-                            <p className="font-bold text-2xl">CONSEILS
+                            <p className="font-bold text-2xl">{this.props.title}
                             </p>
-                            <p className="text-sm font-bold">Consultez, par gamme, les questions les plus fréquemment posées pour éclairer vos choix. Des questions simples, des réponses pratiques, qui vous permettront de mener à bien votre projet avec lun de nos partenaires installateurs en France.</p>
+                            <p className="text-sm font-bold">{this.props.description}</p>
                         </div>
                     </div>
                 </div>

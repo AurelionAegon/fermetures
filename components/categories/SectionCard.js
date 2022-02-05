@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class SectionCard extends Component {
   render() {
     return (
-      <div className=' w-1/3 border test border-blue-300  hover:shadow-2xl  h-56 rounded-2xl bg-blue-100 hover:bg-white bg-opacity-20 p-4 flex flex-col relative undefined hover:border-blue-700'  >
+      <div className=' w-1/3 border test border-blue-300  shadow-2xl  h-56 rounded-2xl bg-blue-100 hover:bg-slate-200 hover:shadow-slate-100 hover:text-indigo-600 bg-opacity-20 p-4 flex flex-col relative undefined hover:border-blue-700'  >
         <a href='#'
           className='items-center flex flex-col space-y-6 py-8  rounded-lg '
         >

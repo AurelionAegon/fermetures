@@ -16,7 +16,7 @@ module.exports = {
 				'daffodil': '#f9db6d',
 				'lavender': '#9daaf2',
 				'iris': '#3b4ca8',
-				'my_gray':'#f8f5eb',
+				'my_gray':'#abb8c3',
 			},
 		},
 		keyframes: {
@@ -37,6 +37,5 @@ module.exports = {
 		},
 	},
 	plugins: [
-		require('daisyui'),
 	]
 };

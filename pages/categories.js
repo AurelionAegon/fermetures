@@ -10,7 +10,7 @@ import Footer from '../components/footer/Footer';
 export default class categories extends Component {
     render() {
         return (
-            <div>
+            <div className='bg-slate-100'>
                 <Header />
                 <Banner />
                 <Section />
