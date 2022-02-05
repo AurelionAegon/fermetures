@@ -54,10 +54,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="pt-10 text-my_gray uppercase flex justify-center px-6 bg-midnight h-screen demo-carousel">
+      <div className="pt-10 text-my_gray uppercase flex justify-center px-6 bg-midnight h-screen demo-carousel">
         asdkjk kasdk
-      </div> */}
-      {/* <UpFooter /> */}
+      </div>
+      <UpFooter />
 
       <Footer />
     </div>

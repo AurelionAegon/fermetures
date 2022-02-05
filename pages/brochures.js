@@ -7,7 +7,7 @@ import Alert from "../components/conseils/Alert";
 export default class brochures extends Component {
   render() {
     return (
-      <div>
+      <div className="">
         <Header />
         <div className=" mt-32 px-10 py-6  mx-4">
           <Alert
