@@ -65,8 +65,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-10 text-my_gray uppercase flex justify-center px-6 bg-midnight h-screen demo-carousel">
-        asdkjk kasdk
+      <div className="pt-10 text-my_gray uppercase flex justify-center px-6 bg-midnight h-screen demo-carousel mt-10">
+        <div className="text-slate-200 font-bold text-xl">
+          UN ACCOMPAGNEMENT DE A À Z
+        </div>
       </div>
       <UpFooter />
 

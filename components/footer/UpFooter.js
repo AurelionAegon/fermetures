@@ -4,6 +4,7 @@ import PictoA from "/public/assets/images/pictoSavoirFaire.svg";
 import PictoB from "/public/assets/images/pictoGaranties.svg";
 import PictoC from "/public/assets/images/pictoInstallateurs.svg";
 import PictoD from "/public/assets/images/pictoNormes.svg";
+import Link from "next/link";
 export default class UpFooter extends Component {
   render() {
     return (
@@ -16,10 +17,27 @@ export default class UpFooter extends Component {
           title="GARANTIES FABRICANT JUSQU'À 8 ANS"
           src="/assets/images/pictoGaranties.svg"
         />
-        <UpFooterCard
+        {/* <UpFooterCard
           title="DES INSTALLATEURS SUR TOUTE LA FRANCE"
           src="/assets/images/pictoInstallateurs.svg"
-        />
+        /> */}
+        <div className="w-full md:w-1/2 sm:w-full  lg:w-1/4 border flex flex-row h-28 rounded-lg bg-purple-100 text-purple-900 shadow-2xl hover:cursor-pointer ">
+          <div className="w-1/3 grid place-items-center flex-wrap">
+            <Link href="/FindPro">
+              <img
+                src="/assets/images/pictoInstallateurs.svg"
+                className="w-15 h-20 animate-wiggle"
+              />
+            </Link>
+          </div>
+          <div className="w-2/3 grid place-items-center">
+            <Link href="/FindPro">
+              <span className="text-sm">
+                DES INSTALLATEURS SUR TOUTE LA FRANCE
+              </span>
+            </Link>
+          </div>
+        </div>
         <UpFooterCard
           title="NORMES ET CERTIFICATIONS POUR UNE QUALITÉ OPTIMALE"
           src="/assets/images/pictoNormes.svg"
