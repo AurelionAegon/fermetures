@@ -48,7 +48,7 @@ export default class CarouselStyles extends Component {
             deviceType={this.props.deviceType}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
-          className="my-2 mx-14 pt-10 flex gap-6 flex-wrap  md:justify-between items-end  capitalize"
+          className="my-2  pt-10 flex gap-6 flex-wrap  md:justify-between items-end  capitalize"
         >
           <div className="">
             {/* item */}
@@ -155,10 +155,7 @@ export default class CarouselStyles extends Component {
             </div>
             {/* item */}
           </div>
-          {/* <div className="w-1/6 px-10">Item 9</div>
-          <div className="w-1/6 px-10">Item 10</div> */}
         </Carousel>
-        ;
       </div>
     );
   }

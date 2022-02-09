@@ -5,7 +5,7 @@ import MiniCard from './MiniCard';
 export default class BottomBanner extends Component {
     render() {
         return (
-            <div className='flex flex-row px-14 py-6 h-screen space-x-14'>
+            <div className='flex flex-row px-14 py-6  space-x-14'>
                 <div className='w-1/2 '>
                    <LeftCard />
                 </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Modal from "../shared/Modal";
 export default class Banner extends Component {
     render() {
         return (
@@ -26,9 +26,9 @@ export default class Banner extends Component {
                     </div>
                     <div className='self-center md:flex items-center space-x-5 font-semibold text-slate-800 hidden'>
                         <div className='group'>
-                        <a href='#'>
-                            Lire la suite
-                        </a>
+                        {/* <a href='#'> */}
+                            <Modal />
+                        {/* </a> */}
                         <div className='h-0.5 bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out' />
          
                         </div>

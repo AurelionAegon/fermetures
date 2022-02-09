@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import Example from "./shared/Example";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -49,8 +50,11 @@ export default function Header() {
             <div className="h-0.5  bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out" />
           </li>
           <li className="group">
-            <a href="#">Qui sommes-nous ?</a>
+            <a href="#"><Example /></a>
             <div className="h-0.5 bg-blue-600 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out" />
+          </li>
+          <li>
+            
           </li>
         </ul>
         {/* navigation end */}

@@ -11,6 +11,7 @@
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
     "@splidejs/splide": "^3.6.12",
+    "@zeit/next-css": "^1.0.1",
     "daisyui": "^1.25.4",
     "embla-carousel-react": "^6.1.1",
     "google-map-react": "^2.1.10",
@@ -20,14 +21,17 @@
     "react-icons": "^4.3.1",
     "react-multi-carousel": "^2.6.5",
     "react-responsive-carousel": "^3.2.22",
-    "swiper": "^7.4.1"
+    "reactjs-popup": "^2.0.5",
+    "swiper": "^8.0.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.0",
     "autoprefixer": "^10.4.2",
+    "css-loader": "^6.6.0",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8",
     "postcss": "^8.4.5",
+    "style-loader": "^3.3.1",
     "tailwindcss": "^3.0.15"
   }
 }

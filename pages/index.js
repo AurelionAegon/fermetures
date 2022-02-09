@@ -9,7 +9,7 @@ import UpFooter from "../components/footer/UpFooter";
 // import Carousel from "react-multi-carousel";
 // import "react-multi-carousel/lib/styles.css";
 import CarouselStyles from "../components/CarouselStyles";
-
+import MySwiper from "../components/shared/MySwiper";
 export default function Home() {
   const responsive = {
     desktop: {
@@ -43,6 +43,17 @@ export default function Home() {
       </div>
       {/* hero section end */}
 
+      {/* <div className="bg-slate-100">
+        <div className="pt-10 flex justify-center px-6 pb-8">
+          <div className="max-w-7xl w-full">
+            <h3 className="text-4xl text-center text-slate-800 font-bold underline-offset-2 underline decoration-wavy decoration-2 decoration-red-600">
+              Nos produits
+            </h3>
+            <CarouselStyles />
+          </div>
+        </div>
+      </div> */}
+
       <div className="bg-slate-100">
         <div className="pt-10 flex justify-center px-6 pb-8">
           <div className="max-w-7xl w-full">
@@ -50,7 +61,7 @@ export default function Home() {
               Nos produits
             </h3>
             {/* <ProductList /> */}
-            <CarouselStyles />
+            <MySwiper />
           </div>
         </div>
       </div>

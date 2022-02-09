@@ -1,3 +1,4 @@
+// const withCSS = require('@zeit/next-css')
 module.exports = {
 	webpack(config) {
 		config.module.rules.push({
@@ -8,3 +9,4 @@ module.exports = {
 		return config;
 	},
 };
+// module.exports = withCSS({})
