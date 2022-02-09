@@ -14,18 +14,14 @@ import Domotique from "/public/assets/images/domotique.svg";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-class MySwiper extends Component {
-  render() {
-    return <div></div>;
-  }
-}
 
 // Import Swiper styles
 import "swiper/css";
 
-export default () => {
-  return (
-    <Swiper
+export default class MySwiper extends Component{
+  render(){
+    return(   
+       <Swiper
       // install Swiper modules
       
       modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -142,6 +138,7 @@ export default () => {
         </div>
         {/* item */}
       </SwiperSlide>
-    </Swiper>
-  );
-};
+        </Swiper>
+    );
+  }
+}
