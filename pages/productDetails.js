@@ -92,9 +92,8 @@ export default class productDetails extends Component {
                 </div>
                 <div className="text-2xl font-bold text-center">EASYLIS</div>
                 <div className="text-center text-lg font-bold text-slate-800">
-                  {
-                  "Une porte enroulable conçue pour pouvoir s'adapter à votre garage, quelque soit sa configuration !"
-                  }
+                  Une porte enroulable conçue pour pouvoir s&apos;adapter à votre
+                  garage, quelque soit sa configuration !
                 </div>
                 <div className="text-center font-light text-lg text-slate-800">
                   Encombrement minimum, la porte idéale pour les petits
@@ -121,10 +120,8 @@ export default class productDetails extends Component {
           </div>
           <div className="w-1/2 space-y-3">
             <div>
-              
-              {
-              "Profitez du confort d'une porte de garage motorisée en conservant tout l'espace qu'offre votre garage. "
-              }
+              Profitez du confort d&apos;une porte de garage motorisée en conservant
+              tout l&apos;espace qu&apos;offre votre garage.
             </div>
             <div>
               Une solution spécialement adaptée pour les garages de petite
@@ -132,15 +129,11 @@ export default class productDetails extends Component {
             </div>
             <div className="font-bold text-slate-900 text-xl">
               La conception de la porte enroulable Easylis lui permet de
-              s'enrouler entièrement dans un caisson de 20,5 cm !
+              s&apos;enrouler entièrement dans un caisson de 20,5 cm !
             </div>
             <div>
               <ul className="list-disc text-slate-600 space-y-3 ml-10">
-                <li>
-                  {
-                    "Intégration facile à l'intérieur de votre garage"
-                  }
-                </li>
+                <li>Intégration facile à l&apos;intérieur de votre garage</li>
                 <li>
                   Possibilité de pose extérieure sur façade en toute discrétion
                 </li>
@@ -149,9 +142,7 @@ export default class productDetails extends Component {
               </ul>
             </div>
             <div className="list-disc font-bold text-slate-900 text-xl">
-              {
-                "Choisissez l'un des 4 packs qui équipera votre porte Easylis :"
-              }
+              Choisissez l&apos;un des 4 packs qui équipera votre porte Easylis :
             </div>
             <div>
               <ul className="list-disc text-slate-600 space-y-3 ml-10">
@@ -161,9 +152,8 @@ export default class productDetails extends Component {
                 </li>
                 <li>Pack Eco : la commande radio adaptée aux petits budgets</li>
                 <li>
-                  {
-                    "Pack Confort : une offre radio avec système de détection d'obstacle pour une sécurité d'utilisation optimale"
-                  }
+                  Pack Confort : une offre radio avec système de détection
+                  d&apos;obstacle pour une sécurité d&apos;utilisation optimale
                 </li>
                 <li>
                   Pack Premium : une offre radio toutes options avec alarme
@@ -172,9 +162,8 @@ export default class productDetails extends Component {
               </ul>
             </div>
             <div className="text-slate-800 font-semibold">
-              {
-                "Disponibles dans de nombreux coloris RAL et tons Bois, composez  votre porte pour qu'elle s'intègre parfaitement à votre façade."
-              }
+              Disponibles dans de nombreux coloris RAL et tons Bois, composez
+              votre porte pour qu&apos;elle s&apos;intègre parfaitement à votre façade.
             </div>
             <div className="text-slate-800 font-semibold">
               Easylis est la porte idéale pour une esthétique coordonnée avec
@@ -328,7 +317,7 @@ export default class productDetails extends Component {
                 </SwiperSlide>
               </Swiper>
             </div>
-            <div className="w-1/2 p-10 text-slate-500 text-2xl font-bold text-center grid place-content-center">
+            <div className="w-1/2 p-10 text-slate-300 text-2xl font-bold text-center grid place-content-center">
               <div>options</div>
               <div className="text-xl text-slate-300">
                 De nombreuses options sont disponibles pour vous apporter
