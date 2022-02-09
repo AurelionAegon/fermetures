@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../components/Header";
 import Footer from "../components/footer/Footer";
 import UpFooter from "../components/footer/UpFooter";
-import CarouselStyles from "../components/CarouselStyles";
+import MySwiper from "../components/shared/MySwiper";
 import Alert from "../components/conseils/Alert";
 import Section from "../components/shared/Section";
 export default class brochures extends Component {
@@ -18,7 +18,7 @@ export default class brochures extends Component {
           />
         </div>
 
-        <CarouselStyles />
+        <MySwiper />
         <Section />
         <UpFooter />
         <Footer />

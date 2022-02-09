@@ -5,6 +5,7 @@ import NosProduits from "../components/conseils/NosProduits";
 import Footer from "../components/footer/Footer";
 import UpFooter from "../components/footer/UpFooter";
 import CarouselStyles from "../components/CarouselStyles";
+import MySwiper from "../components/shared/MySwiper";
 export default class Conseils extends Component {
   render() {
     return (
@@ -16,7 +17,7 @@ export default class Conseils extends Component {
             description="Consultez, par gamme, les questions les plus fréquemment posées pour éclairer vos choix. Des questions simples, des réponses pratiques, qui vous permettront de mener à bien votre projet avec lun de nos partenaires installateurs en France."
           />
          <div>
-         <CarouselStyles />
+         <MySwiper />
          </div>
           <div className="h-screen ">
             some content goes here

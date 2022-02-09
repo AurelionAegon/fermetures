@@ -34,7 +34,7 @@ export default class MySwiper extends Component{
       onSlideChange={() => console.log("slide change")}
       className="my-2   flex gap-6 flex-wrap  md:justify-between items-end  capitalize h-44 "
     >
-      <SwiperSlide className="w-1/6 pt-10">
+      <SwiperSlide className="w-1/6 pt-10 mb-10">
         {/* item */}
         <div className="flex flex-col items-center group cursor-pointer ">
           <div className="ease-in-out duration-300 group-hover:-translate-y-3">
