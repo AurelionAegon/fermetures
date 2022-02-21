@@ -1,0 +1,132 @@
+export const playlist =  [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Product",
+        "name": "Qalio Qompact",
+        "url": "/portes-de-garage-enroulables/porte-qalio-qompact",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/Qompact/QT-QALIO-GRIS%20ANTH.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Product",
+        "name": "MIAMI",
+        "url": "/portes-de-garage-sectionnelles/porte-miami",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Miami/__7des_miami_plus4_650.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Product",
+        "name": "MIAMI By Me",
+        "url": "/portes-de-garage-sectionnelles/porte-miami-by-me",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/MiamiByme/MiamiByMe.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Product",
+        "name": "MAORI",
+        "url": "/portes-de-garage-sectionnelles/porte-maori",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Maori/PGS-PLAFOND%20MAORI-VIP%20LISSE-GRIS2900%20HUBLOT-ALUNOX%20U1%20ok.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Product",
+        "name": "MAMBO",
+        "url": "/portes-de-garage-sectionnelles/porte-mambo",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Mambo/PGS-LATERAL%20MAMBO%20LISSE-GRIS7016%20HUBLOT-ALUNOX%20A6.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Product",
+        "name": "Excelis",
+        "url": "/portes-de-garage-enroulables/porte-excelis",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Excelis/MAISONMODERNE3.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Product",
+        "name": "Makao",
+        "url": "/portes-de-garage-sectionnelles/porte-makao",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Makao/makao.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Product",
+        "name": "Easylis",
+        "url": "/portes-de-garage-enroulables/porte-easylis",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Easylis/__MAISONCLASSIQUE2_650.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Product",
+        "name": "MAESTRO",
+        "url": "/portes-de-garage-sectionnelles/porte-maestro",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Maestro/__maestro_1_650.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Product",
+        "name": "Janibel PVC",
+        "url": "/portes-de-garage-traditionnelles/porte-janibel-pvc",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Janibel_PVC/PGT%20JANIBEL%20PVC%20BLANC%20A1.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Product",
+        "name": "MAESTRO VIP",
+        "url": "/portes-de-garage-sectionnelles/porte-maestro-vip",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/Images/PGS-MAESTRO-VIP-mise-en-situation02.png"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Product",
+        "name": "Janibat PVC",
+        "url": "/portes-de-garage-traditionnelles/porte-janibat-pvc",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Janibat_PVC/8des_janibat1_pvc.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Product",
+        "name": "Janiclos PVC",
+        "url": "/portes-de-garage-traditionnelles/porte-janiclos-pvc",
+        "image": "https://www.france-fermetures.fr/image/300x200/o/FF-ff/public/catalogue/portes_garage/Janiclos_PVC/8des_janiclos1_pvc.jpg"
+      }
+    }
+  ]

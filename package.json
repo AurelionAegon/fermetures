@@ -12,6 +12,7 @@
     "@heroicons/react": "^1.0.5",
     "@splidejs/splide": "^3.6.12",
     "@zeit/next-css": "^1.0.1",
+    "axios": "^0.25.0",
     "daisyui": "^1.25.4",
     "embla-carousel-react": "^6.1.1",
     "google-map-react": "^2.1.10",
